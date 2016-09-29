@@ -1,0 +1,24 @@
+.tabs{
+	font-size: 0;
+}
+.tabs .hover{
+	background-color: #f23233;
+}
+.tabs .active{
+	background-color: blue;
+}
+.tabs .tab{
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+	line-height: 30px;
+	border: 1px solid green;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom: none;
+}
+
+.content{
+	font-size: 20px;display: none;
+}
